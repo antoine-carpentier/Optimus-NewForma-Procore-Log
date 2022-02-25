@@ -1,6 +1,14 @@
-# Optimus-NewForma-Procore-Log
+# Optimus
+This utility is the first part of a 3-part management tool I called **Optimus**.
 
-This utility looks through the unreal email of a specified Outlook folder and look for specific email titles.
-It then downloads the files linked in said emails to their respective folders, logs the emails into Google Sheets and send a Slack notification to the appropriate channel.
+The purpose of Optimus is to streamline the logging and retrieval of submittals' and RFIs' (Request For Information) information.
 
-See video demo here: [Youtube Video](https://www.youtube.com/watch?v=9eONBx06qv0)
+Part 2: [AWS Optimus I](https://github.com/antoine-carpentier/AWS-Optimus-I)  
+Part 3: [AWS Optimus II](https://github.com/antoine-carpentier/AWS-Optimus-II)
+
+## Optimus NewForma Procore Log
+
+This part of Optimus looks through the unreal email of a specified Outlook folder and look for specific email titles.
+If it finds matches, it then downloads the files linked in said emails to their respective folders, logs the emails into a Google Sheets spreadsheet and send a Slack notification to the appropriate channel to infom the users of the new items.
+
+See video demo of this part here: [Youtube Video](https://www.youtube.com/watch?v=9eONBx06qv0)
