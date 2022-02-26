@@ -9,7 +9,7 @@ Part 3: [AWS Optimus II](https://github.com/antoine-carpentier/AWS-Optimus-II)
 
 ## Optimus NewForma Procore Log
 
-This part of Optimus looks through the unreal email of a specified Outlook folder and look for specific email titles from either [Procore](https://www.procore.com) or [Newforma](https://www.newforma.com/).  
+This part of Optimus scans through the unread emails of a specified Outlook folder and looks for specific email subjects from either [Procore](https://www.procore.com) or [Newforma](https://www.newforma.com/).  
 If it finds matches, it then downloads the files linked in said emails to their respective folders, logs the items into a Google Sheets spreadsheet and sends a Slack notification to the appropriate channel to infom the users of the new items.
 
 See video demo of this part here: [Youtube Video](https://www.youtube.com/watch?v=9eONBx06qv0)
